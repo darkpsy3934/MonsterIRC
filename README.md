@@ -1,5 +1,5 @@
 #MonsterIRC
-6/4/2012
+7/19/2013
 
 MonsterIRC is an immensely popular and successful IRC plugin for bukkit. The plugin's source code is completely open and free - whether you're a Java expert or just keen to explore, these can be valuable learning resources. 
 
@@ -7,7 +7,7 @@ MonsterIRC is an immensely popular and successful IRC plugin for bukkit. The plu
 
 Download the latest source code with:
 
-    git clone git://github.com/Monstercraft/MonsterIRC.git
+    git clone git://github.com/darkpsy3934/MonsterIRC.git
 	
 Keep your source up to date with:
 
