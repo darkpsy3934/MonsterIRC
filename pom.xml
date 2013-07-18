@@ -5,7 +5,7 @@
 
 	<groupId>org.monstercraft.irc</groupId>
 	<artifactId>MonsterIRC</artifactId>
-	<version>1.74</version>
+	<version>2.0.0</version>
 
 
 	<properties>
@@ -14,14 +14,14 @@
 
 
 	<scm>
-		<connection>scm:git:git://github.com/Monstercraft/MonsterIRC.git</connection>
+		<connection>scm:git:git://github.com/darkpsy3934/MonsterIRC.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/Monstercraft/MonsterIRC.git</developerConnection>
 		<url>https://github.com/Monstercraft/MonsterIRC</url>
 	</scm>
 
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://voice.monstercraft.org:8080/job/MonsterIRC</url>
+		<system>Travis-CI</system>
+		<url>https://travis-ci.org/darkpsy3934/MonsterIRC</url>
 	</ciManagement>
 
 	<repositories>
@@ -29,10 +29,6 @@
             <id>bukkit-repo</id>
             <url>http://repo.bukkit.org/content/groups/public/</url>
         </repository>
-		<repository>
-			<id>central</id>
-			<url>file:///var/lib/jenkins/workspace/MonsterIRC/.repository/</url>
-		</repository>
 	</repositories>
 
 
@@ -40,7 +36,7 @@
 	    <dependency>
 	      <groupId>org.bukkit</groupId>
 	      <artifactId>craftbukkit</artifactId>
-	      <version>[1.2.5-R4.0,)</version>
+	      <version>[1.6.2-R0.1,)</version>
 	      <type>jar</type>
 	    </dependency>
 		<dependency>
