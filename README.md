@@ -1,5 +1,6 @@
 #MonsterIRC
 7/19/2013
+[![Build Status](https://travis-ci.org/darkpsy3934/MonsterIRC.png?branch=master)](https://travis-ci.org/darkpsy3934/MonsterIRC)
 
 MonsterIRC is an immensely popular and successful IRC plugin for bukkit. The plugin's source code is completely open and free - whether you're a Java expert or just keen to explore, these can be valuable learning resources. 
 
